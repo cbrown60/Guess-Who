@@ -1,0 +1,48 @@
+body {
+  background-image: url('http://media.harrypotter.bloomsbury.com/rep/g/page-background-shell%20-%202.png');
+  color: white;
+  font-family: Papyrus;
+}
+
+#char-pic {
+  width: 120px;
+  height: 170px;
+  background-color: red;
+  color: white;
+}
+
+img {
+  width: 70px;
+  height: 120px;
+}
+
+#characters {
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+ 
+}
+
+#start {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+}
+
+#eliminator {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+#functions {
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+}
+
+#guess {
+  padding: 10px;
+  margin: auto;
+}
